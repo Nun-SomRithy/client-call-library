@@ -3,7 +3,8 @@ pipeline {
    stages {
        stage('Hello') {
            steps {
-               helloWorld("DARA")
+               sh "pwd"
+               sh "whoami"
            }
        }
    }
